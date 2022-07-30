@@ -41,4 +41,12 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
     })
+
+    document.body.onkeyup = function(e) {
+        if (e.key == " " ||
+            e.code == "Space"      
+        ) {
+            hideShowPage(e.target.getAttribute('data-index'))
+        }
+      }
 });

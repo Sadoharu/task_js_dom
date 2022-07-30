@@ -36,27 +36,27 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  .icon-rate_review:before {
+.icon-rate_review:before {
     content: "\e900";
-  }
+}
 
-  .icon-about-dot-me:before {
+.icon-about-dot-me:before {
     content: "\e901";
-  }
+}
 
-  .icon-browser:before {
+.icon-browser:before {
     content: "\e902";
-  }
+}
 
-  .icon-award:before {
+.icon-award:before {
     content: "\e903";
-  }
+}
 
-  .icon-files-empty:before {
+.icon-files-empty:before {
     content: "\e925";
-  }
+}
 
 *   {
     font-family: "Roboto", sans-serif;
@@ -169,7 +169,6 @@
 }
 
 .section {
-    /* background-color: red; */
     border: 1px solid rgba(0, 0, 0, .1);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, .25);
     width: 100%;
